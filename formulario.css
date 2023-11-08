@@ -1,0 +1,41 @@
+body 
+{
+  background-color: #ecf0f1;
+}
+table 
+{
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  th, td 
+  {
+    padding: 10px;
+  }
+  
+  input, textarea 
+  {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  textarea 
+  {
+    height: 300px;
+  }
+  
+  .botao-enviar 
+  {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .botao-enviar 
+  {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
